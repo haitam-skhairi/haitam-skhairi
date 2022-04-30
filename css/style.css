@@ -169,71 +169,90 @@ body {
 .header .logo span {
   color: var(--main-color);
 }
-.header .nav {
-  flex: 1;
+.header nav {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
-.header .nav .toggle-menu {
-  color: #ffffff;
+.header nav .toggle-icon {
+  color: #fff;
   font-size: 22px;
+  transition: .3s;
+}
+.header nav .toggle-icon:hover {
+  color: var(--main-color);
+  transform: scale(1.1);
 }
 @media (min-width: 768px) {
-  .header .nav .toggle-menu {
+  .header nav .toggle-icon {
     display: none;
   }
 }
-.header .nav ul {
+.header nav .links {
   display: flex;
 }
-.header .nav ul li a {
+.header nav .links li a {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 40px 10px;
+  padding: 30px 10px;
   color: #ffffff;
 }
 @media (max-width: 768px) {
-  .header .nav ul {
+  .header nav .links {
     display: none;
   }
-  .header .nav .toggle-menu:hover + ul {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: rgb(0 0 0 / 50%);
-  }
-  .header .nav ul li a {
-    padding: 20px !important;
-  }
 }
-.header .nav ul li a.active,
-.header .nav ul li a:hover {
+.header nav .links li a.active,
+.header nav .links li a:hover {
   position: relative;
   z-index: 2;
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
-.header .nav .form {
-  width: 40px;
-  height: 30px;
-  margin-left: 30px;
-  border-left: 1px solid #ffffff;
-  position: relative;
-}
-.header .nav .form i {
-  color: #ffffff;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
+
+/* Start Toggle Menu */
+
+.header .toggle-menu {
+  padding: 10px;
+  position: fixed;
+  top: 80px;
   right: 0;
-  transform: translateY(-50%);
+  width: 200px;
+  height: calc(100vh - 90px);
+  background-color: rgba(3, 121, 158, 0.7);
+  transform: translateX(100%);
+  transition: .5s;
 }
+
+@media (min-width: 768px) {
+  .header .toggle-menu {
+    display: none;
+  }
+}
+.header .toggle-menu.show {
+  transform: translateX(0);
+}
+.header .toggle-menu li {
+  border-bottom: 1px solid #777;
+  margin: 5px;
+}
+.header .toggle-menu li a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  color: #fff;
+  transition: .3s;
+}
+.header .toggle-menu li a:hover {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Start Toggle Menu */
 /* End Header */
 
 /* Start Landing */
@@ -301,7 +320,7 @@ body {
 }
 .landing .text .content .buttons span {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 17px 20px;
   border-radius: 7px;
   font-weight: bold;
   cursor: pointer;

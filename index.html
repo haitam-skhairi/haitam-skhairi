@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is Main Kasper css file -->
-    <link rel="stylesheet" href="css/haitam.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- Rander all elements normaly -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- This is font awesome css -->
@@ -20,24 +20,36 @@
 </head>
 
 <body>
+
     <!-- Scrolling Button -->
     <button class="scrolling-button"></button>
     <!-- Start Header -->
     <div class="header">
         <div class="container">
+
             <a class="logo" href="#">Hai<span>tam</span></a>
-            <div class="nav">
-                <i class="fas fa-bars toggle-menu"></i>
+
+            <nav>
+                <i class="fas fa-bars toggle-icon"></i>
+                <ul class="links">
+                    <li><a class="home active" href="#">home</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Toggel Menu -->
+
+            <div class="toggle-menu">
                 <ul>
                     <li><a class="home active" href="#">home</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
                 </ul>
-                <div class="form">
-                    <i class="fas fa-search"></i>
-                </div>
             </div>
+
         </div>
     </div>
     <!-- End Header -->
