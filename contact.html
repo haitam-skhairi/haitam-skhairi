@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This is Main Kasper css file -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <!-- Rander all elements normaly -->
     <link rel="stylesheet" href="css/normalize.css">
     <!-- This is font awesome css -->
@@ -32,9 +33,9 @@
             <nav>
                 <i class="fas fa-bars toggle-icon"></i>
                 <ul class="links">
-                    <li><a class="home active" href="./index.html">Home</a></li>
+                    <li><a class="home" href="./index.html">Home</a></li>
                     <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a class="active" href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
 
@@ -52,31 +53,31 @@
     </div>
     <!-- End Header -->
 
-    <!-- Start Landing -->
-    <div class="landing">
-        <div class="overly"></div>
-        <div class="text">
+    <!-- Start Contact Us -->
+    <div class="contact" id="contact">
+        <div class="container">
             <div class="content">
-                <h1>Hi, I'm<br>Haitam Skhairi</h1>
-                <h2>Front End Developer</h2>
-                <p>I am a web developer and programmer living in Tetouan, Morocco. I usually build web applications
-                    using HTML, CSS and JavaScript</p>
-                <div class="buttons">
-                    <span>
-                        <a href="./about.html">Learn More</a>
-                    </span>
-                    <span>
-                        <a href="./contact.html">Contact Me</a>
-                    </span>
+                <form action="">
+                    <input class="input" type="text" name="name" placeholder="Your Name *" required>
+                    <input class="input" type="email" name="mail" placeholder="Your Email *" required>
+                    <textarea class="input" name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message"></input>
+                </form>
+                <div class="info">
+                    <h3>Get in touch</h3>
+                    <span>+212 613.411.697</span>
+                    <span>+212 625.665.962</span>
+                    <h3>where we are</h3>
+                    <address>
+                        Awesome Address 93000<br>
+                        Tetouan, Morocco
+                    </address>
                 </div>
             </div>
         </div>
-
-        <a href="#footer" class="go-down" name="Move Down">
-            <i class="fas fa-angle-double-down fa-2x"></i>
-        </a>
     </div>
-    <!-- End Landing -->
+    <!-- End Contact Us -->
+
 
     <!-- Start Footer -->
     <div class="footer overly" id="footer">

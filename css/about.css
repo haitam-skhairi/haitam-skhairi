@@ -1,0 +1,249 @@
+/* Start Landing About Page */
+
+.landing-about {
+    background-color: #113846;
+    padding: 150px 0 var(--padding-section);
+}
+
+.landing-about h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 55px;
+}
+
+.landing-about .image {
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: white;
+    margin: 70px auto;
+}
+
+.landing-about .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* End Landing About Page */
+
+/* Start What I Do */
+
+.what-i-do {
+    position: relative;
+    padding: var(--padding-section) 0px;
+}
+
+.what-i-do .container {
+    padding: 0 30px;
+    display: flex;
+}
+
+.what-i-do h2 {
+    width: 40%;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.what-i-do .content {
+    width: 60%;
+}
+.what-i-do .content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #777;
+}
+
+@media (max-width: 768px) {
+    .what-i-do .container {
+        flex-direction: column;
+    }
+    .what-i-do h2,
+    .what-i-do .content {
+        width: 100%;
+    }
+}
+
+/* End What I Do */
+
+/*  Start About Me */
+
+.about-me {
+    display: flex;
+    padding: var(--padding-section) 0;
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.about-me h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-me .knowledge,
+.about-me .skills {
+    width: 50%;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .about-me .knowledge {
+        width: 100%;
+    }
+}
+
+.about-me .box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .about-me .box {
+        width: 100%;
+    }
+}
+
+.about-me .knowledge .education,
+.about-me .knowledge .hobbies {
+    margin-bottom: 50px;
+}
+
+.about-me .knowledge p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #777;
+}
+
+.about-me .skills {
+    background-color: #113846;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .about-me .skills {
+        width: 100%;
+    }
+}
+
+.about-me .skills h2 {
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.about-me .skills .prog-holder {
+    margin-bottom: 30px;
+}
+.about-me .skills .prog-holder h4 {
+    color: #0484b3;
+    margin-bottom: 20px;
+}
+.about-me .skills .prog-holder .prog {
+    position: relative;
+    height: 3px;
+    width: 100%;
+    background-color: #0484b3;
+}
+
+.about-me .skills .prog-holder .prog span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: .5s;
+}
+
+.about-me .skills .prog-holder .prog span::after {
+    content: attr(data-width);
+    position: absolute;
+    right: -15px;
+    top: -51px;
+    height: 20px;
+    width: 30px;
+    padding: 8px;
+    font-weight: bold;
+    background-color: #0484b3;
+    color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+.about-me .skills .prog-holder .prog span::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0484b3 transparent transparent;
+    display: none;
+}
+
+.about-me .skills .prog-holder .prog:hover span::before,
+.about-me .skills .prog-holder .prog:hover span::after {
+    display: block;
+}
+
+/*  End About Me */
+
+/* Start My Experience */
+
+.experiance {
+    position: relative;
+    padding: var(--padding-section) 0;
+}
+
+.experiance h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.experiance .box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .experiance .box {
+        flex-direction: column;
+    }
+}
+
+.experiance .box .title {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.experiance .box .title h4 {
+    margin-bottom: 20px;
+}
+
+.experiance .box .title span {
+    font-size: 13px;
+}
+
+.experiance .box .content {
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    .experiance .box .title,
+    .experiance .box .content {
+        width: 100%;
+    }
+}
+
+.experiance .box .content p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #777;
+}
+
+
+/* End My Experience */
