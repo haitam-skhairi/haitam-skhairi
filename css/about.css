@@ -27,43 +27,47 @@
 }
 /* End Landing About Page */
 
-/* Start What I Do */
+/* Start About */
 
-.what-i-do {
+.about {
     position: relative;
     padding: var(--padding-section) 0px;
 }
 
-.what-i-do .container {
+.about .container {
     padding: 0 30px;
     display: flex;
 }
 
-.what-i-do h2 {
+.about h2 {
     width: 40%;
     font-size: 40px;
     margin-bottom: 30px;
 }
-.what-i-do .content {
+.about .content {
     width: 60%;
 }
-.what-i-do .content p {
+.about .content p {
     font-size: 20px;
     line-height: 1.6;
     color: #777;
 }
 
+.about .content p:first-child {
+    margin-bottom: 30px;
+}
+
 @media (max-width: 768px) {
-    .what-i-do .container {
+    .about .container {
         flex-direction: column;
     }
-    .what-i-do h2,
-    .what-i-do .content {
+    .about h2,
+    .about .content {
         width: 100%;
     }
 }
 
-/* End What I Do */
+/* End About */
 
 /*  Start About Me */
 
@@ -218,14 +222,16 @@
 .experiance .box .title {
     width: 30%;
     margin-bottom: 30px;
+    padding-right: 40px;
 }
 
 .experiance .box .title h4 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .experiance .box .title span {
     font-size: 13px;
+    color: #777;
 }
 
 .experiance .box .content {
