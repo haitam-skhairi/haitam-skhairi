@@ -1,5 +1,101 @@
 .contact {
-    height: 600px;
+    height: 600px!;
     padding-top: 150px;
+    padding-bottom: var(--padding-section);
     background-color: #113846;
+    color: white
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.contact .info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .contact .info {
+        flex-direction: column;
+    }
+}
+
+.contact .info .mail,
+.contact .info .social {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact .info .mail h4,
+.contact .info .social h4 {
+    margin-bottom: 20px;
+}
+
+.contact .info .mail h3 {
+    font-weight: 300;
+}
+.contact .info .mail h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact p {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact form {
+    margin: 0px auto;
+    max-width: 500px;
+}
+
+.contact form .user input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 25px;
+    outline: none;
+    border: none;
+}
+
+.contact form .user textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    resize: vertical;
+}
+
+.contact form .checkbox {
+    margin-bottom: 20px;
+}
+
+.contact form .checkbox label {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.contact form .submit input {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.contact form .submit input:hover {
+    background-color: #087da8;
 }

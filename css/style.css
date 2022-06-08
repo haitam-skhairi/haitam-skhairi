@@ -387,15 +387,18 @@ body {
   padding: 20px;
   border-bottom: 1px solid #ffffff;
 }
-.footer .icons {
+.icons {
   margin-top: 10px;
 }
-.footer .icons a {
+.icons li {
+  display: inline-block;
+}
+.icons a {
   text-decoration: none;
   color: #fff;
   margin: 0 5px;
 }
-.footer .icons i {
+.icons i {
   padding: 5px;
 }
 .footer p:last-of-type {
