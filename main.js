@@ -1,16 +1,19 @@
 // Button Scroll To Top
-let button = document.querySelectorAll(".scrolling-button");
+let button = document.querySelector(".scroll-top");
 
 window.onscroll = () => {
-  if (windows.scrollY >= 300) {
-    button.forEach((element) => {
-      element.style.display = "block";
-    });
+  if (this.scrollY >= 300) {
+    button.classList.add("show");
   } else {
-    button.forEach((element) => {
-      element.style.display = "none";
-    });
+    button.classList.remove("show");
   }
+};
+
+button.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 };
 
 // Nav bar

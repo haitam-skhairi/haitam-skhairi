@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth
 }
-.scrolling-button {
+.scroll-top {
   width: 30px;
   height: 30px;
   padding: 10px;
@@ -27,7 +27,7 @@ html {
   cursor: pointer;
   display: none;
 }
-.scrolling-button::before {
+.scroll-top::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -38,6 +38,9 @@ html {
   border: 3px solid white;
   border-bottom-color: transparent;
   border-left-color: transparent
+}
+.scroll-top.show {
+  display: block;
 }
 
 /* End Window Style */
