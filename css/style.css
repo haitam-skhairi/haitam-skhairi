@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth
 }
-.scroll-top {
+.button-scroll-top {
   width: 30px;
   height: 30px;
   padding: 10px;
@@ -27,7 +27,7 @@ html {
   cursor: pointer;
   display: none;
 }
-.scroll-top::before {
+.button-scroll-top::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -39,7 +39,7 @@ html {
   border-bottom-color: transparent;
   border-left-color: transparent
 }
-.scroll-top.show {
+.button-scroll-top.show {
   display: block;
 }
 
