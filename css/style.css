@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth
 }
+
 .button-scroll-top {
   width: 30px;
   height: 30px;
@@ -27,6 +28,7 @@ html {
   cursor: pointer;
   display: none;
 }
+
 .button-scroll-top::before {
   content: '';
   position: absolute;
@@ -39,6 +41,7 @@ html {
   border-bottom-color: transparent;
   border-left-color: transparent
 }
+
 .button-scroll-top.show {
   display: block;
 }

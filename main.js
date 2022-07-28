@@ -1,5 +1,5 @@
 // Button Scroll To Top
-let button = document.querySelector(".scroll-top");
+let button = document.querySelector(".button-scroll-top");
 
 window.onscroll = () => {
   if (this.scrollY >= 300) {
