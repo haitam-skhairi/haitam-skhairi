@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 🤝  I'm open to collaborating on open-source projects as well as building new ideas
 - ⚡  Chill and Code is somehow means the lifestyle, I love nature and relaxing in front of the sea...
 
-## Demo 
+## Portfolio
 https://haitam-skhairi.github.io/haitam-skhairi/
