@@ -1,9 +1,5 @@
 ### Hi there 👋
 
-<!--
-**haitam-skhairi/haitam-skhairi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
 After graduating from Abdul-Malik Al-Saadi University with a Bachelor's degree in Energy Sciences, Energy Physics Division, I was introduced to the field of programming and learned that programming is the future and that anyone can learn it.
 
 It wasn't long before I decided to change my course and started learning to program. At the beginning of the quarantine in 2020, I participated in the Front and Devlopper course of the One Million Arab Coders Initiative and received an approved certificate from Udacity. I did some projects to apply what I learned. Since then I have learned new things and will never stop learning.
