@@ -1,8 +1,10 @@
 ### Hi there 👋
 
-After graduating from Abdul-Malik Al-Saadi University with a Bachelor's degree in Energy Sciences, Energy Physics Division, I was introduced to the field of programming and learned that programming is the future and that anyone can learn it.
+As an experienced front-end web developer, I specialize in creating exceptional web applications with cutting-edge technologies such as React, TypeScript, HTML, CSS, Sass, Node, and Next. With my in-depth knowledge of web development best practices, I can help you create responsive and user-friendly web interfaces that meet your business needs.
 
-It wasn't long before I decided to change my course and started learning to program. At the beginning of the quarantine in 2020, I participated in the Front and Devlopper course of the One Million Arab Coders Initiative and received an approved certificate from Udacity. I did some projects to apply what I learned. Since then I have learned new things and will never stop learning.
+I am proficient in Git and GitHub for version control and collaboration with other team members, and I can also implement DevOps best practices to streamline the development process and improve project outcomes.
+
+With a focus on delivering high-quality work and exceptional results, I collaborate closely with designers, project managers, and stakeholders to ensure project success. If you're looking for a reliable and experienced front-end web developer who can help you achieve your business goals, please don't hesitate to contact me. I look forward to hearing from you!
 
 Here are some ideas to get you started:
 
